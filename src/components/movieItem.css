@@ -1,0 +1,35 @@
+.singleCard {
+  background-color: #383c6c;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.singleCard > img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.cardInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+  padding: 0px 10px 0px 10px;
+}
+
+.cardInfo > h3 {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+}
+
+.cardInfo > p {
+  margin: 0;
+  color: orange;
+  font-size: 20px;
+}

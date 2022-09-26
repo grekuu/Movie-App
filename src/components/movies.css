@@ -1,0 +1,19 @@
+.moviesContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  background-color: #28244c;
+}
+
+@media only screen and (max-width: 1320px) {
+  .moviesContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .moviesContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
